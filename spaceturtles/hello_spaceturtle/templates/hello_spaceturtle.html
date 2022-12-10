@@ -1,11 +1,2013 @@
+
+
+
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
-  </head>
-  <body>
-    <p>Hello this is a test, and another test</p>
+
+<html xmlns:fb="http://ogp.me/ns/fb#" class="no-js no-mobile no-tablet user-logged-off" lang="en
+">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=1">
+  
+  <link href="https://rijks-web-2012.azureedge.net/v-179bb9e65882248762b55598193192cc/WebStatic/rijksmuseum-web-fonts.css" media="all" rel="stylesheet" type="text/css" />
+  <title>Rijksstudio - Rijksmuseum</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" /> 
+  <meta name="version" content="Rijksmuseum.Web - 7.35.22341.1" />
+    <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Rijksmuseum" >
+  <meta property="fb:app_id" content="297398297031568" />
+  <meta property="og:url" content="https://www.rijksmuseum.nl/en/rijksstudio" />
+  <meta property="og:title" content="Rijksstudio - Rijksmuseum" />
+  <meta property="og:image" content="https://lh6.ggpht.com/1gH99j2GD85SW4r3CA18uwTDuRioMYTNZlH5N2xuZsbh_4QUnzxettm6WqCsLa_ciGCzhWwLzF35QtHEpz4M9LWv_yvl=s500-c" />
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+
+    <link rel="canonical" href="https://www.rijksmuseum.nl/en/rijksstudio"/>
+
+    <link rel="dns-prefetch" href="https://rijks-web-2012.azureedge.net">
+    <link rel="preconnect" href="https://rijks-web-2012.azureedge.net">
+
+  
+
+<link rel="preload" href="https://rijks-web-2012.azureedge.net/v-15f9886faef52c3c8edc26805f6d445e/WebStatic/Fonts/Rijksmuseum-Normal.woff2" as="font" crossorigin>
+<link rel="preload" href="https://rijks-web-2012.azureedge.net/v-b20fc1732520a2948ce209326b4e1367/WebStatic/Fonts/Rijksmuseum-Bold.woff2" as="font" crossorigin>
+
+<style>
+  @font-face {
+    font-family: RijksText;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("https://rijks-web-2012.azureedge.net/v-15f9886faef52c3c8edc26805f6d445e/WebStatic/Fonts/Rijksmuseum-Normal.woff2") format("woff2"),
+    url("https://rijks-web-2012.azureedge.net/v-6088fca1293f7aa2e1de3bb82bbbee13/WebStatic/Fonts/Rijksmuseum-Normal.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: RijksText;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("https://rijks-web-2012.azureedge.net/v-b20fc1732520a2948ce209326b4e1367/WebStatic/Fonts/Rijksmuseum-Bold.woff2") format("woff2"),
+         url("https://rijks-web-2012.azureedge.net/v-bee6c69ccdea5ecffe660ab37692eac8/WebStatic/Fonts/Rijksmuseum-Bold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: RijksText;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    src: url("https://rijks-web-2012.azureedge.net/v-eea4164a4fc5a44ada777f0976a2d592/WebStatic/Fonts/Rijksmuseum-Italic.woff2") format("woff2"),
+         url("https://rijks-web-2012.azureedge.net/v-14ac72553ffcf8a7ff260d5c99f63659/WebStatic/Fonts/Rijksmuseum-Italic.woff") format("woff");
+}
+
+  @font-face {
+    font-family: RijksText;
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+    src: url("https://rijks-web-2012.azureedge.net/v-0a8e5b3b273d14cfaaa7eb04d389eb93/WebStatic/Fonts/Rijksmuseum-BoldItalic.woff2") format("woff2"),
+         url("https://rijks-web-2012.azureedge.net/v-6263dc7ae72d677529999a1ce5b57168/WebStatic/Fonts/Rijksmuseum-BoldItalic.woff") format("woff");
+  }
+</style>
+
+  <link href="https://rijks-web-2012.azureedge.net/v-d7b8c8fb3caf6017fd4f9d3c62447825/WebStatic/rijksmuseum-web.css" media="all" rel="stylesheet" type="text/css" />
+
+
+  <script>
+    var dataLayer = dataLayer || [];
+    dataLayer.push({ "language": "en" });
+  </script>
+  
+  <script src="https://rijks-web-2012.azureedge.net/v-98baf1cedf171ed3a81606503002d85d/WebStatic/lib/modernizr.js"></script>
+
+  <script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-TDHW9DQ');
+</script>
+<link rel="dns-prefetch" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="dns-prefetch" href="https://www.googleoptimize.com">
+<link rel="preconnect" href="https://www.googleoptimize.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+
+</head>
+
+
+<body>
+
+
+
+
+
+<form id="antiforgery-form" class="hidden">
+  <input name="__RequestVerificationToken" type="hidden" value="I0ptKbjktYkPtWgP26YYOkD2VsqJFYyB_0j4feMp_dytNYi54CTOhd8wkeNy7ywgzNBGHhogUMi5b-WyQXvUBHZFepc1" />
+</form>
+
+
+
+<!-- ko stopBinding: true -->
+
+<div data-role="notifications-view" class="user-notifications corner-top-left full-size hidden">
+  <div data-bind="click:toggleListVisible" class="corner-top-left full-size look-clickable">
+    <div class="notification-count corner-bottom-right block" data-bind="text:notifications().length, visible:hasNotifications && !listVisible()"></div>
+  </div>
+
+  <div data-bind="visible:listVisible" class="notification-list corner-top-right bg-lightest stoned">
+    <!-- ko foreach:notifications -->
+    <div class="box box-compact block-separate offset-parent">
+      <span class="notification-image margin-right-halfx responsive-image"
+            data-bind="
+                    css: { 'block': imageUrl(), 'button-fake icon-im-star': !imageUrl() },
+                    style: { backgroundImage: imageUrl() ? 'url(' + imageUrl() + ')' : '' }
+                  " style="float:left; width: 40px; height: 40px">
+      </span>
+
+      <p class="notification-message" data-bind="html:message()"></p>
+    </div>
+    <!-- /ko -->
+
+    <div class="box box-compact block-separate">
+      <a href="/en/rijksstudio">To my Rijksstudio</a>
+    </div>
+  </div>
+</div>
+<!-- /ko -->
+
+
+<section data-role="confirmation" class="hidden confirmation box bg-lightest icon-check">
+  <p data-role="feedback-balloon"></p>
+</section>
+
+
+<div data-vue="rijksmuseum-header">
+  <page-header :navigation-content='{
+  &quot;header&quot;: {
+    &quot;login&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/login&quot;,
+      &quot;text&quot;: &quot;Login&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;search&quot;: {
+      &quot;url&quot;: &quot;/en/content-search&quot;,
+      &quot;text&quot;: &quot;Search&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;secondaryTicketShop&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/tickets?variantKey=e6486c94-1206-48af-1c8f-08da8a58df4b&quot;,
+      &quot;text&quot;: &quot;Tickets Vermeer&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;ticketShop&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/tickets?variantKey=default-configuration&quot;,
+      &quot;text&quot;: &quot;Rijksmuseum Tickets&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;lanaguageSelectionLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/de/besuchen&quot;,
+        &quot;text&quot;: &quot;Besucherinformationen&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/fr/visitez&quot;,
+        &quot;text&quot;: &quot;Service visiteur&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/it/visita&quot;,
+        &quot;text&quot;: &quot;Informazioni per i visitatori&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/es/visit&quot;,
+        &quot;text&quot;: &quot; Informacion para los visitantes&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/pa/bishita&quot;,
+        &quot;text&quot;: &quot;Informashon pa bishita&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/ja/visit&quot;,
+        &quot;text&quot;: &quot;ビジター&#183;インフォメーション&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/zh/visit&quot;,
+        &quot;text&quot;: &quot;游客信息&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/ru/visit&quot;,
+        &quot;text&quot;: &quot;Информация для посетителей&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;quickLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/visit&quot;,
+        &quot;text&quot;: &quot;Visit&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/stories&quot;,
+        &quot;text&quot;: &quot;Stories&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/rijksstudio&quot;,
+        &quot;text&quot;: &quot;Rijksstudio&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;quickLink&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseumshop.nl/en?utm_source=rijksmuseum.nl&amp;utm_medium=referral&amp;utm_campaign=webshop&amp;utm_content=homepage_button_en&quot;,
+      &quot;text&quot;: &quot;Giftshop&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    }
+  },
+  &quot;footer&quot;: {
+    &quot;visitorInformation&quot;: &quot;&lt;h2&gt;Visitor information&lt;/h2&gt;\r\n&lt;p&gt;Open daily 9 to 17h&lt;br&gt;\r\nMuseumstraat 1, Amsterdam&lt;/p&gt;\r\n&quot;,
+    &quot;primaryLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/about-us&quot;,
+        &quot;text&quot;: &quot;About us&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/press&quot;,
+        &quot;text&quot;: &quot;Press&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/careers&quot;,
+        &quot;text&quot;: &quot;Careers&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/footer/contact&quot;,
+        &quot;text&quot;: &quot;Contact&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;secondaryLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/footer/terms-and-conditions&quot;,
+        &quot;text&quot;: &quot;Terms and conditions&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/footer/privacy-policy&quot;,
+        &quot;text&quot;: &quot;Privacy&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/footer/cookie-policy&quot;,
+        &quot;text&quot;: &quot;Cookie Policy&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/footer/terms-and-conditions#anchor&quot;,
+        &quot;text&quot;: &quot;Right of withdrawal&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;sponsorLogoBlocks&quot;: [
+      {
+        &quot;title&quot;: &quot;&quot;,
+        &quot;logos&quot;: [
+          {
+            &quot;name&quot;: &quot;Ministry of Education, Culture and Science&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/m-ocw-en.svg?v=QEYTAPDF5Wwk-JV0bimd5hFH2berQZBkI1ohCDhi2Ts&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/footer/ocw&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          }
+        ]
+      },
+      {
+        &quot;title&quot;: &quot;Founder&quot;,
+        &quot;logos&quot;: [
+          {
+            &quot;name&quot;: &quot;Philips - Engels&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/philips.svg?v=P0YIAmy_SYAIXBxO4oxmPFKUMKAvDCxt5mXjTv4IlUA&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/support/corporate/partnerships/philips&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          }
+        ]
+      },
+      {
+        &quot;title&quot;: &quot;Main sponsors&quot;,
+        &quot;logos&quot;: [
+          {
+            &quot;name&quot;: &quot;Vriendenloterij - ENG&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/vrienden-loterij.svg?v=2Zbn-PC2n116FFCMEaTD6pHWraLx8A86vbwtTFZtD0g&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/support/corporate/partnerships/vriendenloterij&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          },
+          {
+            &quot;name&quot;: &quot;ING - Engels&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/ing.svg?v=MG-3JIhSI9o7zZT8I3Fqxf0FPK_-YtNlSZHjbZh3QQk&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/support/corporate/partnerships/ing&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          },
+          {
+            &quot;name&quot;: &quot;KPN - Engels&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/kpn-logo-white.svg?v=klQvrLnzJC4wn3MEZnQMVXNadupmMQyQC9c4RhPH0As&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/support/corporate/partnerships/kpn&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          }
+        ]
+      }
+    ],
+    &quot;socialLogoBlock&quot;: {
+      &quot;socialLogos&quot;: [
+        {
+          &quot;name&quot;: &quot;Instagram&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/instagram.svg?v=Hdv2NW65cK5GndleJEcf89TNq2ui1oMLBLHFOI98oeg&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.instagram.com/rijksmuseum/&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Facebook&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/Facebook.svg?v=YdprA7YcwZephSBcyP912qunoQUAjPJFsYMuZaH1Mzo&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.facebook.com/rijksmuseum/&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Youtube&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/youtube.svg?v=CsESWBRHYsKuAyO17UkcZTeD4u7u6gI5QGL5mVaYqTc&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.youtube.com/channel/UCEXuPfYt1M3e8DT1LDeSfVg&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Twitter&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/twitter.svg?v=IKaDt8BWN6gcI0cCEdtgpmXRH587gPfHxBjUPsbKAlk&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.twitter.com/rijksmuseum&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Tiktok&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/tiktok.svg?v=YCEKtP7KklQCt_BgpPPHR5x1B0w72v2KETcIRuNlINg&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.tiktok.com/@rijksmuseum&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Linkedin&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/linkedin.svg?v=vRda6FkkSw-KblSYAv2Wkk8pyysPV1Ltnh1K7PIhK2Y&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.linkedin.com/company/rijksmuseum&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        }
+      ]
+    },
+    &quot;donateButton&quot;: {
+      &quot;url&quot;: &quot;/en/support/donate&quot;,
+      &quot;text&quot;: &quot;Donate today&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;newsletterButton&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/newsletter?slug=NEWSLETTER_EN&quot;,
+      &quot;text&quot;: &quot;Newsletter&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;anbiLink&quot;: {
+      &quot;name&quot;: &quot;ANBI&quot;,
+      &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/anbi.svg?v=d-fNPyb1jicLHUaYn3C5rG7Xbt202Xl1QMKLQ2fiGKg&quot;,
+      &quot;link&quot;: {
+        &quot;url&quot;: &quot;/en/support/donate/anbi-information&quot;,
+        &quot;text&quot;: &quot;ANBI&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    }
+  },
+  &quot;menu&quot;: {
+    &quot;primaryLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/visit&quot;,
+        &quot;text&quot;: &quot;Visit&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/whats-on&quot;,
+        &quot;text&quot;: &quot;What&#39;s on&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/stories&quot;,
+        &quot;text&quot;: &quot;Stories&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/rijksstudio&quot;,
+        &quot;text&quot;: &quot;Rijksstudio: the collection&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;secondaryLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/support&quot;,
+        &quot;text&quot;: &quot;Support us&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;https://www.rijksmuseumshop.nl/en?utm_source=rijksmuseum.nl&amp;utm_medium=referral&amp;utm_campaign=webshop&amp;utm_content=uitklapmenu_en&quot;,
+        &quot;text&quot;: &quot;Giftshop&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/research&quot;,
+        &quot;text&quot;: &quot;Research&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;targetHeader&quot;: &quot;Go to&quot;,
+    &quot;targetLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/families-and-children&quot;,
+        &quot;text&quot;: &quot;Families and children&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/groups&quot;,
+        &quot;text&quot;: &quot;Groups&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/support/friendships/friends&quot;,
+        &quot;text&quot;: &quot;Friends&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/education&quot;,
+        &quot;text&quot;: &quot;Education &amp; Schools&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/visit/accessibility&quot;,
+        &quot;text&quot;: &quot;Accessibility&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/press&quot;,
+        &quot;text&quot;: &quot;Press&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;linkBlock&quot;: {
+      &quot;title&quot;: &quot;Clara and Crawly creatures&quot;,
+      &quot;subtitle&quot;: &quot;Lean back and discover the stories&quot;,
+      &quot;label&quot;: &quot;New!&quot;,
+      &quot;labelColor&quot;: 0,
+      &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/assets/2e4d8267-cee7-4b55-8008-576f3422ee15?x=148&amp;y=210&amp;cropWidth=3401&amp;cropHeight=2914&amp;c=73626c5123c977aaf7b5a15238e784b4fcd081a0f5d4d38eb08789e0aa861cfd&quot;,
+      &quot;link&quot;: {
+        &quot;url&quot;: &quot;/en/stories/exhibitions/clara-and-crawly-creatures&quot;,
+        &quot;text&quot;: &quot;&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    }
+  }
+}' inline-template>
+    <div class="navigation layout-wide hide-in-app-view" :class="{ open: menuOpen }" ref="wrapper" v-if="navigationContent">
+      <header class="grid-row header" :class="{ 'zoom-auto-hide': !menuOpen }">
+        <nav class="grid-column full-width header-inner">
+  
+            <li class="header-link header-button-icon">
+              <!-- <button class="button-icon transparent link-button"
+                :class="{ 'icon-close': menuOpen, 'icon-menuburger': !menuOpen}" ref="menuButton"
+                v-on:click="onMenuToggle" aria-label="Menu button" aria-controls="overlay-menu"
+                :aria-expanded="menuOpen? 'true' : 'false'" :aria-label="menuOpen? 'Close menu' : 'Open menu'"></button> -->
+
+              
+
+<transition name="fade" v-on:after-enter="onOverlayToggled" v-on:before-leave="onOverlayToggled">
+  <nav id="overlay-menu" class="overlay-menu blocks-full-height" v-show="menuOpen" v-cloak tabindex="0"
+    v-on:keyup.esc="closeMenu" v-cloak>
+    <div class="menu-links grid-row">
+      <div class="grid-column full-width">
+        <height-expander inline-template>
+          <div class="quicklinks" data-focus-mobile>
+            <div class="horizontal-link-list">
+              <button class="link-2020 link-2020-inverse link-2020-button" aria-controls="language-menu-mobile"
+                      v-on:click="toggleContent" :aria-expanded="openContent? 'true' : 'false'"
+                      :aria-label="openContent? 'Close language menu' : 'Open language menu'">
+                <span>
+                  Language
+                </span>
+              </button>
+              <a :href="$parent.navigationContent.header.login.url" class="link-2020 link-2020-inverse"
+                 :target="$parent.openNewTab($parent.navigationContent.header.login.targetIsBlank)" v-if="!$parent.loggedInUser">
+                <span v-text="$parent.navigationContent.header.login.text"></span>
+              </a>
+              <a :href="$parent.navigationContent.header.quickLink.url" class="link-2020 link-2020-inverse"
+                 :target="$parent.openNewTab($parent.navigationContent.header.quickLink.targetIsBlank)">
+                <span v-text="$parent.navigationContent.header.quickLink.text"></span>
+              </a>
+              
+              <a href="/en/rijksstudio/my" class="user-profile link" v-if="$parent.loggedInUser">
+                <img :src="$parent.loggedInUser.avatar" alt="" class="user-avatar" v-if="$parent.loggedInUser.avatar !== ''">
+                <div class="avatar-placeholder" v-text="$parent.loggedInUser.initials" v-else></div>
+              </a>
+            </div>
+            <transition name="fade-fast">
+              <div id="language-menu-mobile" class="language-menu-mobile" v-if="openContent">
+                <ul class="language-menu-translations">
+
+
+    <li class="language-menu-link"><a class="link-2020 link-2020-inverse" href="/en/rijksstudio" data-role="fragment-link-update" data-url="/en/rijksstudio"><span>English</span></a></li>
+      <li class="language-menu-link"><a class="link-2020 link-2020-inverse" href="/nl/rijksstudio" data-role="fragment-link-update" data-url="/nl/rijksstudio"><span>Nederlands</span></a></li>
+  
+</ul>
+<ul v-if="$parent.navigationContent.header && $parent.navigationContent.header.lanaguageSelectionLinks" class="language-menu-links">
+  <li v-for="languageSelectionLink in $parent.navigationContent.header.lanaguageSelectionLinks" class="language-menu-link">
+    <a :href="languageSelectionLink.url" class="link-2020 link-2020-inverse" :target="$parent.openNewTab(languageSelectionLink.targetIsBlank)">
+      <span v-text="languageSelectionLink.text"></span>
+    </a>
+  </li>
+</ul>
+
+              </div>
+            </transition>
+          </div>
+        </height-expander>
+      </div>
+      <transition name="fade-in-bottom">
+        <div class="grid-column half-width extra-links-wrapper" v-if="menuOpen" data-focus-desktop>
+          <ul class="extra-links text-big">
+            <li v-for="link in navigationContent.menu.primaryLinks" :key="link.text">
+              <a :href="link.url" class="link-2020 link-2020-inverse" :target="openNewTab(link.targetIsBlank)">
+                <span>
+                  
+                </span>
+              </a>
+            </li>
+          </ul>
+          <ul class="extra-links">
+            <li v-for="link in navigationContent.menu.secondaryLinks" :key="link.text">
+              <a :href="link.url" class="link-2020 link-2020-inverse" :target="openNewTab(link.targetIsBlank)">
+                <span>
+                  
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </transition>
+      <transition name="fade-in-bottom">
+        <div class="grid-column half-width" v-if="menuOpen">
+          <strong class="overlay-menu-header heading-3" v-text="navigationContent.menu.targetHeader"></strong>
+          <ul>
+            <li v-for="link in navigationContent.menu.targetLinks" :key="link.text">
+              <a :href="link.url" class="link-2020 link-2020-inverse" :target="openNewTab(link.targetIsBlank)">
+                <span>
+                  
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </transition>
+      <div class="rijksmuseum-logo">
+        <a href="/en">
+          <img src="/WebStatic/Images/Logo/rijksmuseum-white.svg" alt="Go to the Homepage"
+               class="icon-rijks-logo"/>
+        </a>
+      </div>
+
+        <div class="sponsor-logos mini-page">
+          <div class="sponsor-logos-section" v-for="(logoBlock, index) in navigationContent.footer.sponsorLogoBlocks"
+               :key="index">
+            <p v-if="logoBlock.title" class="sponsor-logos-section-heading" v-text="logoBlock.title"></p>
+            <div class="grid-column logo" v-for="logo in logoBlock.logos">
+              <a :href="logo.link.url" :aria-label="logo.name + 'link'" class="logo-link">
+                <img class="logo-image" :src="logo.imageUrl" :alt="logo.name + 'logo'">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="block-half-width overlay-menu-link-block">
+      <a :href="navigationContent.menu.linkBlock.link.url" class="fit-parent object-fit-container cover block-link"
+        :target="openNewTab(navigationContent.menu.linkBlock.link.targetIsBlank)">
+
+        <img :src="navigationContent.menu.linkBlock.imageUrl" />
+
+        <div class="block-content grid-row mini-page">
+          <div class="grid-column fit-width-content block-content-wrapper">
+            <h2 class="heading-2">
+              <span class="inline-link inline-link-inverse" v-text="navigationContent.menu.linkBlock.title"></span>
+            </h2>
+
+            <p class="block-content-subtitle" v-if="navigationContent.menu.linkBlock.subtitle"
+              v-text="navigationContent.menu.linkBlock.subtitle"></p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </nav>
+</transition>
+
+            </li>
+            <!-- <li class="header-link header-button-icon">
+              <a :aria-label="navigationContent.header.search.text" :href="navigationContent.header.search.url"
+                class="button-icon transparent icon-search"
+                :target="openNewTab(navigationContent.header.search.targetIsBlank)">
+              </a>
+            </li> -->
+              <!-- <transition name="fade-fast">
+                <li class="header-link header-cta header-back-button" v-if="!menuOpen">
+                    <a data-role="site-back-button" class="button-2020 button-2020-back" href="/en">
+                      <span class="icon-arrow-thin"></span>
+                      <span>Home</span>
+                    </a>
+                </li>
+              </transition> -->
+          <!-- </ul> -->
+          <ul class="header-links">
+            <tooltip-toggle-content inline-template>
+              <!-- <li v-on:click.stop="onClick" class="header-link header-language-menu language-menu-wrapper"> -->
+                <!-- <button class="link-2020 link-2020-inverse link-2020-button" v-on:click="toggleContent"
+                  :aria-expanded="openContent? 'true' : 'false'" aria-controls="header-language-menu"
+                  :class="{'clicked': openContent}">
+                  <span>Language</span>
+                </button> -->
+                <div class="language-menu" v-show="openContent" id="header-language-menu"
+                  :aria-hidden="openContent? 'false' : 'true'" v-cloak>
+                  <ul class="language-menu-translations">
+
+
+    <li class="language-menu-link"><a class="link-2020 link-2020-inverse" href="/en/rijksstudio" data-role="fragment-link-update" data-url="/en/rijksstudio"><span>English</span></a></li>
+      <li class="language-menu-link"><a class="link-2020 link-2020-inverse" href="/nl/rijksstudio" data-role="fragment-link-update" data-url="/nl/rijksstudio"><span>Nederlands</span></a></li>
+  
+</ul>
+<ul v-if="$parent.navigationContent.header && $parent.navigationContent.header.lanaguageSelectionLinks" class="language-menu-links">
+  <li v-for="languageSelectionLink in $parent.navigationContent.header.lanaguageSelectionLinks" class="language-menu-link">
+    <a :href="languageSelectionLink.url" class="link-2020 link-2020-inverse" :target="$parent.openNewTab(languageSelectionLink.targetIsBlank)">
+      <span v-text="languageSelectionLink.text"></span>
+    </a>
+  </li>
+</ul>
+
+                </div>
+              </li>
+            </tooltip-toggle-content>
+            
+            <li class="header-link" v-if="!loggedInUser">
+              <a :href="navigationContent.header.login.url + '?redirectUrl=' + baseUrl" class="link-2020 link-2020-inverse"
+                :target="openNewTab(navigationContent.header.login.targetIsBlank)">
+                <span v-text="navigationContent.header.login.text"></span>
+              </a>
+            </li>
+            <li class="header-link">
+              <a :href="navigationContent.header.quickLink.url" class="link-2020 link-2020-inverse"
+                :target="openNewTab(navigationContent.header.quickLink.targetIsBlank)">
+                <span v-text="navigationContent.header.quickLink.text"></span>
+              </a>
+            </li>
+            <li class="header-link header-cta">
+              <a :href="navigationContent.header.ticketShop.url" class="button-2020 button-2020-primary"
+                v-text="navigationContent.header.ticketShop.text"
+                :target="openNewTab(navigationContent.header.ticketShop.targetIsBlank)"></a>
+            </li>
+            
+            <li class="user-profile" v-if="loggedInUser">
+              <a href="/en/rijksstudio/my"
+                class="link-2020">
+                <img :src="loggedInUser.avatar" alt="" class="user-avatar" v-if="loggedInUser.avatar !== ''">
+                <div class="avatar-placeholder" v-text="loggedInUser.initials" v-else>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </page-header>
+</div>
+
+    <div id="maincontent" tabindex="-1">
+      
+
+<section role="main" class="layout-wide offset-parent">
+
+  <div class="mini-page-wrapper bg-accent-darkest offset-parent">
+    
+  <figure class="object-fit-container cover bg-placeholder fit-parent" style=" background-position: 50% 50%;">
+    
+
+<img data-src=""
+     data-srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Nightwatch_by_Rembrandt_-_Rijksmuseum.jpg/2517px-The_Nightwatch_by_Rembrandt_-_Rijksmuseum.jpg"
+     alt="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Nightwatch_by_Rembrandt_-_Rijksmuseum.jpg/2517px-The_Nightwatch_by_Rembrandt_-_Rijksmuseum.jpg"
+     sizes="100vw"
+     class="lazy-image not-loaded"
+            
+         style="object-position: 50% 50%;"
+       
+          />
+
+  </figure>
+
+
+
+    <header data-role="page-header" class="page-header-rijksstudio padding-bottom-1x mini-page">
+      <div class="corner-bottom-left
+          corner-bottom-right
+          fit-container-left
+          fit-container-right
+          fit-container-bottom">
+
+        <div class="logo-container">
+          <img alt="Rijksstudio" class="logo-rijksstudio-landing" src="https://rijks-web-2012.azureedge.net/v-a526ee85b77cf85f9e21284c041cea58/WebStatic/Images/Logo/Rijksstudio.svg" />
+
+        </div>
+        <p class="rijksstudio-landing-sponsor corner-bottom-right fit-container-right clearfix">
+          <span class="rijksstudio-landing-sponsor-text inline-left inline-left-compact page-title-text">Made possible by</span>
+          <a class="inline-left" href="/en/support/corporate/partnerships/vriendenloterij">
+            <img class="rijksstudio-landing-sponsor-logo" alt="Vrienden Loterij" src="https://rijks-web-2012.azureedge.net/v-1934190aad3d3c73d56b812f7abffd31/WebStatic/Images/Sponsors/vrienden-loterij.svg">
+          </a>
+        </p>
+      </div>
+    </header>
+  </div>
+
+
+  <div class="mini-page-wrapper">
+    <section class="mini-page mini-page-compact">
+        <h2 class="align-middle padding-right-1x text-weak tablet-sm-hide">
+          Try out the new Guided Tour to find paintings you didn’t know you were looking for 
+        </h2>
+        <p class="align-middle tabsm-align-none padding-left-halfx mobile-lg-reset-padding-left">
+        </p>
+      <p class="align-middle tabsm-align-none padding-left-halfx mobile-lg-reset-padding-left">
+      </p>
+    </section>
+  </div>
+
+  <div class="mini-page-wrapper">
+    <section class="mini-page mini-page-compact">
+        <p class="align-middle tabsm-align-none padding-left-halfx mobile-lg-reset-padding-left">
+          <button data-role="register-button" data-register-redirect-url="/nl/rijksstudio" class="button-big button-bold button-primary icon-im-arrow-button-thin icon-after">
+            Guided Tour
+          </button>
+        </p>
+      <p class="align-middle tabsm-align-none padding-left-halfx mobile-lg-reset-padding-left">
+        <a href="/en/search" class="button-like button-big button-dark">
+          Search Rijksstudio
+        </a>
+      </p>
+    </section>
+  </div>
+
+  <div class="mini-page-wrapper bg-lightest div-bottom">
+    <section class="mini-page slideshow-em-wrapper">
+      <div data-role="slideshow-em" class="slideshow-em slideshow-em-stream">
+        <nav data-role="slideshow-em-prev" class="slideshow-em-nav corner-top-left high hidden">
+          <button class="slideshow-em-button button-icon button-prev">Previous</button>
+        </nav>
+
+        <nav data-role="slideshow-em-next" class="slideshow-em-nav corner-top-right high hidden">
+          <button class="slideshow-em-button button-icon button-next">Next</button>
+        </nav>
+
+        <ul data-role="slideshow-em-tray slideshow-lazy" class="slideshow-em-tray reset-list offset-parent clearfix">
+            <li data-role="slideshow-em-slide" class="slideshow-em-slide">
+              <figure>
+                
+
+
+<a href="/en/rijksstudio/artists/rembrandt-van-rijn" class="set" aria-label="Rembrandt van Rijn">
+  <div class="set-item width-2-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/7qzT0pbclLB7y3fdS1GxzMnV7m3gD3gWnhlquhFaJSn6gNOvMmTUAX3wVlTzhMXIs8kM9IH8AsjHNVTs8em3XQI6uMY=w400"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/mAyAjvYjIeAIlByhJx1Huctgeb58y7519XYP38oL1FXarhVlcXW7kxuwayOCFdnwtOp6B6F0HJmmws-Ceo5b_pNSSQs=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/SsEIJWka3_cYRXXSE8VD3XNOgtOxoZhqW1uB6UFj78eg8gq3G4jAqL4Z_5KwA12aD7Leqp27F653aBkYkRBkEQyeKxfaZPyDx0O8CzWg=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+
+</a>
+
+<figcaption>
+  <h3 class="margin-bottom-1x">
+    <a class="link-reverse block text-ellipsis" href="/en/rijksstudio/artists/rembrandt-van-rijn">Rembrandt van Rijn</a>
+  </h3>
+  <div class="logo-container">
+    <img alt="Rijksmuseum" class="logo-rijksmuseum-13" src="https://rijks-web-2012.azureedge.net/v-6346ea3dfc40e7265194e384540df42b/WebStatic/Images/Logo/Rijksmuseum-grey.svg" />
+  </div>
+</figcaption>
+
+<a href="/en/rijksstudio/highlights" class="button-like button-big button-bold bg-accent-light margin-top-1x icon-im-arrow-button-thin icon-after">
+  More highlights
+</a>
+
+              </figure>
+            </li>
+            <li data-role="slideshow-em-slide" class="slideshow-em-slide">
+              <figure>
+                
+
+
+<a href="/en/rijksstudio/artists/johannes-vermeer" class="set" aria-label="Johannes Vermeer">
+  <div class="set-item width-2-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/cRtF3WdYfRQEraAcQz8dWDJOq3XsRX-h244rOw6zwkHtxy7NHjJOany7u4I2EG_uMAfNwBLHkFyLMENzpmfBTSYXIH_F=w400"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/N-coqwrkCI2zYd6nTtGEpLPwB4nOKJVxcXmCCKg0WrcEp4gDj44NdWZy_DoI5yPrWzTX7qZQrc9I1UlB-zBdMNrZWLYh4A1FtX1eimZ5=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/cgJpNZ47yAU-Ttf6SF4vdBBxAiiZW_w_-DsA1Xchet3eDJN-8EyoA24xgNR9Wl1fTLwGAhENkTkMZu1qULcXOQdgF2K1qDbdWSwic1POVg=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+
+</a>
+
+<figcaption>
+  <h3 class="margin-bottom-1x">
+    <a class="link-reverse block text-ellipsis" href="/en/rijksstudio/artists/johannes-vermeer">Johannes Vermeer</a>
+  </h3>
+  <div class="logo-container">
+    <img alt="Rijksmuseum" class="logo-rijksmuseum-13" src="https://rijks-web-2012.azureedge.net/v-6346ea3dfc40e7265194e384540df42b/WebStatic/Images/Logo/Rijksmuseum-grey.svg" />
+  </div>
+</figcaption>
+
+<a href="/en/rijksstudio/artists" class="button-like button-big button-bold bg-accent-light margin-top-1x icon-im-arrow-button-thin icon-after">
+  More artists
+</a>
+
+              </figure>
+            </li>
+            <li data-role="slideshow-em-slide" class="slideshow-em-slide">
+              <figure>
+                
+
+
+<a href="/en/rijksstudio/works-of-art/paintings" class="set" aria-label="Paintings">
+  <div class="set-item width-2-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/yfH3HoYjUOOXNic6f9V3KSgtFGQYxU3lyqsi08F7P8GVHW12saX8oW_sApbSTgTBv-ctXUqCLM82FgHzUamP9Z-ozhCJZKZkb2U3F13z=w400"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/3pFR4aYWco9PyWAhkPn613FL8noQCazps3rdXbUg4y-z9Z4PKViyxEZ5Du2d3GJXHVgG7X1t-c6TU_3zcnh_hNf_CrU=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/7JF0tll1eAfY8XgFHJ6Iq_e1xux4xgcT8_LxMfVbZdRMC5CX5KsXLH1DLlMEfuTfKX8kehtmhJyzJSBFEBDPFmeB6Y8=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+
+</a>
+
+<figcaption>
+  <h3 class="margin-bottom-1x">
+    <a class="link-reverse block text-ellipsis" href="/en/rijksstudio/works-of-art/paintings">Paintings</a>
+  </h3>
+  <div class="logo-container">
+    <img alt="Rijksmuseum" class="logo-rijksmuseum-13" src="https://rijks-web-2012.azureedge.net/v-6346ea3dfc40e7265194e384540df42b/WebStatic/Images/Logo/Rijksmuseum-grey.svg" />
+  </div>
+</figcaption>
+
+<a href="/en/rijksstudio/works-of-art" class="button-like button-big button-bold bg-accent-light margin-top-1x icon-im-arrow-button-thin icon-after">
+  More works of art
+</a>
+
+              </figure>
+            </li>
+            <li data-role="slideshow-em-slide" class="slideshow-em-slide">
+              <figure>
+                
+
+
+<a href="/en/rijksstudio/styles/the-hague-school" class="set" aria-label="The Hague School">
+  <div class="set-item width-2-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh5.ggpht.com/r_DRBtTHOXhLYFgBxurUwJmY0DYfhBFvNJwvRMNi155YJXWYE-_vd_k0dNKUn7GXYfRwHTZvWTDKW6TLXr7RXVs1QA=w400"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/C6sQ8m1R2K-kneZGnRibFwV8UbneWt9i1pRp8sedtNEDR8zwpQkGUpHlcP1ShmzP7Q-GWaJYxdAJKQStXjW02psg0tAA=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/CKrxLJqyzjzEg8YAvWgYtJnXLTaNSnHcC4XjYQmhPSHMxIwLQfL2F-mVIi9relG9CX0QrZ6cLysAqNZafu9aFPT6w1pC=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+
+</a>
+
+<figcaption>
+  <h3 class="margin-bottom-1x">
+    <a class="link-reverse block text-ellipsis" href="/en/rijksstudio/styles/the-hague-school">The Hague School</a>
+  </h3>
+  <div class="logo-container">
+    <img alt="Rijksmuseum" class="logo-rijksmuseum-13" src="https://rijks-web-2012.azureedge.net/v-6346ea3dfc40e7265194e384540df42b/WebStatic/Images/Logo/Rijksmuseum-grey.svg" />
+  </div>
+</figcaption>
+
+<a href="/en/rijksstudio/styles" class="button-like button-big button-bold bg-accent-light margin-top-1x icon-im-arrow-button-thin icon-after">
+  More styles
+</a>
+
+              </figure>
+            </li>
+            <li data-role="slideshow-em-slide" class="slideshow-em-slide">
+              <figure>
+                
+
+
+<a href="/en/rijksstudio/subjects/birds" class="set" aria-label="Birds">
+  <div class="set-item width-2-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.ggpht.com/5sc-SGzzgobkHnmnykUi4B1PqMtadoFqXOhYLQmsAI0Mcs_FeCoXT6loaiAUhr_zKvp2iyXntDxVhCzeVwjFulsjzRE=w400"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh5.ggpht.com/OBAim2DO3fMEW1DW3ooQvAZti2zswgkla9rB9IUXFl7Ew0sJUts_5YOVSljD611fu0I5_uUmhTERNwCECG0mGTi_oIo=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/b-2tYSVmnqYKcWVQwMPfQSxOwmFhkqt2WW9VGZBPTphp4SpiJZ87kiKS8CzLj0v4LcFrXKVGgucFTSGTGA2B1lZ_svF21vFmZWybnb9PZA=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+
+</a>
+
+<figcaption>
+  <h3 class="margin-bottom-1x">
+    <a class="link-reverse block text-ellipsis" href="/en/rijksstudio/subjects/birds">Birds</a>
+  </h3>
+  <div class="logo-container">
+    <img alt="Rijksmuseum" class="logo-rijksmuseum-13" src="https://rijks-web-2012.azureedge.net/v-6346ea3dfc40e7265194e384540df42b/WebStatic/Images/Logo/Rijksmuseum-grey.svg" />
+  </div>
+</figcaption>
+
+<a href="/en/rijksstudio/subjects" class="button-like button-big button-bold bg-accent-light margin-top-1x icon-im-arrow-button-thin icon-after">
+  More subjects
+</a>
+
+              </figure>
+            </li>
+            <li data-role="slideshow-em-slide" class="slideshow-em-slide">
+              <figure>
+                
+
+
+<a href="/en/rijksstudio/historical-figures/william-of-orange" class="set" aria-label="William of Orange">
+  <div class="set-item width-2-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh6.ggpht.com/SAoyYucO-_B31ER9JX2sDuZkCk2IsPBSngy5rBn78M-K7crRMHfL8b4kD5QGaTx2tGqSSJU5cDaprJhNtqY9wrvbUwQ=w400"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh4.ggpht.com/jaQzNemBg9sohYo9tl5HmVq4T-AKm7xPt078oHhCfq31kq3pqw2mWj9NTEj2zvdKfttN9ZKQd97yxH6XM23qXamy5HA=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+  <div class="set-item width-1-3">
+      <div class="lazy-image-wrapper object-fit-container cover image-square bg-placeholder">
+        
+
+<img data-src="//lh3.googleusercontent.com/_BGOU2j67VwLEzkwwGvykBeqM-AgXmGcnQ1KOHVE_VcWJ8g6MqPXXTJ-P-is99ojsMggoe5tQnwsMrYdg7Y0ae6YNLU=w200"
+     data-srcset=""
+     alt=""
+     class="lazy-image not-loaded"
+               />
+
+      </div>
+  </div>
+
+
+</a>
+
+<figcaption>
+  <h3 class="margin-bottom-1x">
+    <a class="link-reverse block text-ellipsis" href="/en/rijksstudio/historical-figures/william-of-orange">William of Orange</a>
+  </h3>
+  <div class="logo-container">
+    <img alt="Rijksmuseum" class="logo-rijksmuseum-13" src="https://rijks-web-2012.azureedge.net/v-6346ea3dfc40e7265194e384540df42b/WebStatic/Images/Logo/Rijksmuseum-grey.svg" />
+  </div>
+</figcaption>
+
+<a href="/en/rijksstudio/historical-figures" class="button-like button-big button-bold bg-accent-light margin-top-1x icon-im-arrow-button-thin icon-after">
+  More historic persons
+</a>
+
+              </figure>
+            </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<div data-vue="rijksmuseum-footer">
+  <page-footer :navigation-content='{
+  &quot;header&quot;: {
+    &quot;login&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/login&quot;,
+      &quot;text&quot;: &quot;Login&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;search&quot;: {
+      &quot;url&quot;: &quot;/en/content-search&quot;,
+      &quot;text&quot;: &quot;Search&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;secondaryTicketShop&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/tickets?variantKey=e6486c94-1206-48af-1c8f-08da8a58df4b&quot;,
+      &quot;text&quot;: &quot;Tickets Vermeer&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;ticketShop&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/tickets?variantKey=default-configuration&quot;,
+      &quot;text&quot;: &quot;Rijksmuseum Tickets&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;lanaguageSelectionLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/de/besuchen&quot;,
+        &quot;text&quot;: &quot;Besucherinformationen&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/fr/visitez&quot;,
+        &quot;text&quot;: &quot;Service visiteur&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/it/visita&quot;,
+        &quot;text&quot;: &quot;Informazioni per i visitatori&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/es/visit&quot;,
+        &quot;text&quot;: &quot; Informacion para los visitantes&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/pa/bishita&quot;,
+        &quot;text&quot;: &quot;Informashon pa bishita&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/ja/visit&quot;,
+        &quot;text&quot;: &quot;ビジター&#183;インフォメーション&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/zh/visit&quot;,
+        &quot;text&quot;: &quot;游客信息&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/ru/visit&quot;,
+        &quot;text&quot;: &quot;Информация для посетителей&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;quickLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/visit&quot;,
+        &quot;text&quot;: &quot;Visit&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/stories&quot;,
+        &quot;text&quot;: &quot;Stories&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/rijksstudio&quot;,
+        &quot;text&quot;: &quot;Rijksstudio&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;quickLink&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseumshop.nl/en?utm_source=rijksmuseum.nl&amp;utm_medium=referral&amp;utm_campaign=webshop&amp;utm_content=homepage_button_en&quot;,
+      &quot;text&quot;: &quot;Giftshop&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    }
+  },
+  &quot;footer&quot;: {
+    &quot;visitorInformation&quot;: &quot;&lt;h2&gt;Visitor information&lt;/h2&gt;\r\n&lt;p&gt;Open daily 9 to 17h&lt;br&gt;\r\nMuseumstraat 1, Amsterdam&lt;/p&gt;\r\n&quot;,
+    &quot;primaryLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/about-us&quot;,
+        &quot;text&quot;: &quot;About us&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/press&quot;,
+        &quot;text&quot;: &quot;Press&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/careers&quot;,
+        &quot;text&quot;: &quot;Careers&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/footer/contact&quot;,
+        &quot;text&quot;: &quot;Contact&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;secondaryLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/footer/terms-and-conditions&quot;,
+        &quot;text&quot;: &quot;Terms and conditions&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/footer/privacy-policy&quot;,
+        &quot;text&quot;: &quot;Privacy&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/footer/cookie-policy&quot;,
+        &quot;text&quot;: &quot;Cookie Policy&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/footer/terms-and-conditions#anchor&quot;,
+        &quot;text&quot;: &quot;Right of withdrawal&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;sponsorLogoBlocks&quot;: [
+      {
+        &quot;title&quot;: &quot;&quot;,
+        &quot;logos&quot;: [
+          {
+            &quot;name&quot;: &quot;Ministry of Education, Culture and Science&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/m-ocw-en.svg?v=QEYTAPDF5Wwk-JV0bimd5hFH2berQZBkI1ohCDhi2Ts&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/footer/ocw&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          }
+        ]
+      },
+      {
+        &quot;title&quot;: &quot;Founder&quot;,
+        &quot;logos&quot;: [
+          {
+            &quot;name&quot;: &quot;Philips - Engels&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/philips.svg?v=P0YIAmy_SYAIXBxO4oxmPFKUMKAvDCxt5mXjTv4IlUA&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/support/corporate/partnerships/philips&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          }
+        ]
+      },
+      {
+        &quot;title&quot;: &quot;Main sponsors&quot;,
+        &quot;logos&quot;: [
+          {
+            &quot;name&quot;: &quot;Vriendenloterij - ENG&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/vrienden-loterij.svg?v=2Zbn-PC2n116FFCMEaTD6pHWraLx8A86vbwtTFZtD0g&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/support/corporate/partnerships/vriendenloterij&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          },
+          {
+            &quot;name&quot;: &quot;ING - Engels&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/ing.svg?v=MG-3JIhSI9o7zZT8I3Fqxf0FPK_-YtNlSZHjbZh3QQk&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/support/corporate/partnerships/ing&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          },
+          {
+            &quot;name&quot;: &quot;KPN - Engels&quot;,
+            &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/kpn-logo-white.svg?v=klQvrLnzJC4wn3MEZnQMVXNadupmMQyQC9c4RhPH0As&quot;,
+            &quot;link&quot;: {
+              &quot;url&quot;: &quot;/en/support/corporate/partnerships/kpn&quot;,
+              &quot;text&quot;: &quot;&quot;,
+              &quot;targetIsBlank&quot;: false,
+              &quot;noFollow&quot;: false
+            }
+          }
+        ]
+      }
+    ],
+    &quot;socialLogoBlock&quot;: {
+      &quot;socialLogos&quot;: [
+        {
+          &quot;name&quot;: &quot;Instagram&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/instagram.svg?v=Hdv2NW65cK5GndleJEcf89TNq2ui1oMLBLHFOI98oeg&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.instagram.com/rijksmuseum/&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Facebook&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/Facebook.svg?v=YdprA7YcwZephSBcyP912qunoQUAjPJFsYMuZaH1Mzo&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.facebook.com/rijksmuseum/&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Youtube&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/youtube.svg?v=CsESWBRHYsKuAyO17UkcZTeD4u7u6gI5QGL5mVaYqTc&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.youtube.com/channel/UCEXuPfYt1M3e8DT1LDeSfVg&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Twitter&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/twitter.svg?v=IKaDt8BWN6gcI0cCEdtgpmXRH587gPfHxBjUPsbKAlk&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.twitter.com/rijksmuseum&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Tiktok&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/tiktok.svg?v=YCEKtP7KklQCt_BgpPPHR5x1B0w72v2KETcIRuNlINg&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.tiktok.com/@rijksmuseum&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        },
+        {
+          &quot;name&quot;: &quot;Linkedin&quot;,
+          &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/linkedin.svg?v=vRda6FkkSw-KblSYAv2Wkk8pyysPV1Ltnh1K7PIhK2Y&quot;,
+          &quot;link&quot;: {
+            &quot;url&quot;: &quot;https://www.linkedin.com/company/rijksmuseum&quot;,
+            &quot;text&quot;: &quot;&quot;,
+            &quot;targetIsBlank&quot;: false,
+            &quot;noFollow&quot;: false
+          }
+        }
+      ]
+    },
+    &quot;donateButton&quot;: {
+      &quot;url&quot;: &quot;/en/support/donate&quot;,
+      &quot;text&quot;: &quot;Donate today&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;newsletterButton&quot;: {
+      &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/newsletter?slug=NEWSLETTER_EN&quot;,
+      &quot;text&quot;: &quot;Newsletter&quot;,
+      &quot;targetIsBlank&quot;: false,
+      &quot;noFollow&quot;: false
+    },
+    &quot;anbiLink&quot;: {
+      &quot;name&quot;: &quot;ANBI&quot;,
+      &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/statics/logos/anbi.svg?v=d-fNPyb1jicLHUaYn3C5rG7Xbt202Xl1QMKLQ2fiGKg&quot;,
+      &quot;link&quot;: {
+        &quot;url&quot;: &quot;/en/support/donate/anbi-information&quot;,
+        &quot;text&quot;: &quot;ANBI&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    }
+  },
+  &quot;menu&quot;: {
+    &quot;primaryLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/visit&quot;,
+        &quot;text&quot;: &quot;Visit&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/whats-on&quot;,
+        &quot;text&quot;: &quot;What&#39;s on&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/stories&quot;,
+        &quot;text&quot;: &quot;Stories&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;https://www.rijksmuseum.nl/en/rijksstudio&quot;,
+        &quot;text&quot;: &quot;Rijksstudio: the collection&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;secondaryLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/support&quot;,
+        &quot;text&quot;: &quot;Support us&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;https://www.rijksmuseumshop.nl/en?utm_source=rijksmuseum.nl&amp;utm_medium=referral&amp;utm_campaign=webshop&amp;utm_content=uitklapmenu_en&quot;,
+        &quot;text&quot;: &quot;Giftshop&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/research&quot;,
+        &quot;text&quot;: &quot;Research&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;targetHeader&quot;: &quot;Go to&quot;,
+    &quot;targetLinks&quot;: [
+      {
+        &quot;url&quot;: &quot;/en/families-and-children&quot;,
+        &quot;text&quot;: &quot;Families and children&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/groups&quot;,
+        &quot;text&quot;: &quot;Groups&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/support/friendships/friends&quot;,
+        &quot;text&quot;: &quot;Friends&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/education&quot;,
+        &quot;text&quot;: &quot;Education &amp; Schools&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/visit/accessibility&quot;,
+        &quot;text&quot;: &quot;Accessibility&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      },
+      {
+        &quot;url&quot;: &quot;/en/press&quot;,
+        &quot;text&quot;: &quot;Press&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    ],
+    &quot;linkBlock&quot;: {
+      &quot;title&quot;: &quot;Clara and Crawly creatures&quot;,
+      &quot;subtitle&quot;: &quot;Lean back and discover the stories&quot;,
+      &quot;label&quot;: &quot;New!&quot;,
+      &quot;labelColor&quot;: 0,
+      &quot;imageUrl&quot;: &quot;https://rijks-frontend.azureedge.net/assets/2e4d8267-cee7-4b55-8008-576f3422ee15?x=148&amp;y=210&amp;cropWidth=3401&amp;cropHeight=2914&amp;c=73626c5123c977aaf7b5a15238e784b4fcd081a0f5d4d38eb08789e0aa861cfd&quot;,
+      &quot;link&quot;: {
+        &quot;url&quot;: &quot;/en/stories/exhibitions/clara-and-crawly-creatures&quot;,
+        &quot;text&quot;: &quot;&quot;,
+        &quot;targetIsBlank&quot;: false,
+        &quot;noFollow&quot;: false
+      }
+    }
+  }
+}' inline-template>
+
+
+    <div id="fb-root"></div>
+
+
+  
+<script>
+  var SiteSettings = {
+    Facebook: {
+      appId : "297398297031568"
+    },
+    Peecho: {
+      buttonScript: "d3aln0nj58oevo.cloudfront.net/button/script/13443496338590.js"
+    },
+    TileUrl: {
+      baseUrl: "https://q42imageserver.appspot.com/api/getTilesInfo?object_id={0}"
+    },
+    Micrio: {
+      path: "https://rijks-micrio.azureedge.net/"
+    },
+    NotificationURLS: {
+      userSetURL: "/en/rijksstudio/{userId}--{username}/collections/{slug}",
+      creationURL: "/en/rijksstudio/{userId}--{username}/creations/{guid}"
+    },
+    LikeURLS: {
+      userSet: {
+        addLikeURL:
+          "/en/rijksstudio/collections/{guid}/addlike",
+        revokeLikeURL: "/en/rijksstudio/collections/{guid}/removelike"
+      },
+      creation: {
+        addLikeURL: "/en/rijksstudio/creations/{guid}/addlike",
+        revokeLikeURL: "/en/rijksstudio/creations/{guid}/removelike"
+      }
+    },
+    NewsletterURLS: {
+      subscribeURL: "/{culture}/api/newsletters/subscribe/{newsletterSlug}",
+      unsubscribeURL: "/{culture}/api/newsletters/unsubscribe/{newsletterSlug}"
+    },
+    Cookies: {
+      Likes_TeaseAccount: "Likes_TeaseAccount",
+      Tour_OwnUserset: "Tour_OwnUserset",
+      Tour_OtherUserset: "Tour_OtherUserset",
+      Tour_RijksstudioAccountIntro: "Tour_RijksstudioAccountIntro",
+      Tour_RijksstudioAccount: "Tour_RijksstudioAccount"
+    },
+    FeatureFlags: {
+      Likes: true
+    },
+    AntiForgeryToken: {
+      AntiForgeryTokenUnwrapped: "/{culture}/content/partials/anti-forgery-token-unwrapped"
+    }
+  };
+
+  var RequestSettings = {
+    CurrentLanguage : "en",
+    CurrentCulture : "en" == "nl" ? "nl_NL" : "en_US",
+    CurrentMenuSection : null,
+    IsMobile : false,
+    IsTablet : false,
+    IsAndroid : navigator.userAgent.toLowerCase().indexOf("android") > -1,
+    IsTabletOrMobile : navigator.userAgent.toLowerCase().indexOf("ipad") > -1 ||
+      navigator.userAgent.toLowerCase().indexOf("ipod") > -1 ||
+      navigator.userAgent.toLowerCase().indexOf("iphone") > -1 ||
+      navigator.userAgent.toLowerCase().indexOf("android") > -1,
+    RefreshOnLogin : true,
+    RefreshOnLogout : true,
+  };
+</script>
+
+      <div class="fixed-bottom-right">
+    <button data-role="fixed-scroll-to-top scroll-to-top" class="button-icon button-up button-hover-darkest faded-out button-snapped-right">Back to top</button>
+  </div>
+
+  <div data-role="glasspane close-site-menu" class="glasspane faded-out"></div>
+
+  <div data-role="lightbox-container" class="lightbox-container faded-out">
+    <section data-role="lightbox-content" class="lightbox-content">
+      
+    </section>
+  </div>
+
+<div class="hidden">
+  <div data-role="lightbox-close-template">
+    <button data-role="lightbox-close" class="lightbox-close button-icon button-close bg-accent-darkest">
+  Close
+</button>
+  </div>
+
+  <article data-role="dialog-confirm" class="lightbox-small bg-lightest">
+    <header class="box">
+      <h2 data-role="dialog-text" class="lightbox-header h3-like">Are you sure?</h2>
+    </header>
+    <nav class="box bg-lighter">
+      <ul class="util-bar items-right reset-list">
+        <li class="item">
+          <button data-role="dialog-ok-button" class="button-big button-bold button-primary">OK</button>
+        </li>
+        <li class="item">
+          <button data-role="dialog-cancel-button" class="button-big button-bold bg-light">Cancel</button>
+        </li>
+      </ul>
+    </nav>
+    <button data-role="lightbox-close" class="lightbox-close button-icon button-close bg-accent-darkest">
+  Close
+</button>
+  </article>
+
+  <article data-role="dialog-choice" class="lightbox-small bg-lightest">
+    <header class="box">
+      <h2 data-role="dialog-text" class="lightbox-header h3-like">Make your choice</h2>
+    </header>
+    <nav class="box bg-lighter">
+      <div data-role="dialog-buttons" class="block-right"></div> 
+    </nav>
+    <button data-role="lightbox-close" class="lightbox-close button-icon button-close bg-accent-darkest">
+  Close
+</button>
+  </article>
+
+
+  <!-- ko stopBinding: true -->
+  <article data-role="tour-template" class="lightbox-xsmall bg-lightest" data-bind="style: { 'top': activeStepOffset().top, 'right': activeStepOffset().right, 'left': activeStepOffset().left }">
+    <header class="box">
+      <h2 data-role="step-title" data-bind="text: activeStep().title, css: { 'lightbox-header': activeStep().isIntro }"></h2>
+      <p data-role="step-text" class="lightbox-text" data-bind="text: activeStep().text"></p>
+    </header>
+    <nav class="box reset-padding-top">
+      <div class="text-right" data-role="tour-start" data-bind="visible: activeStep().isIntro">
+        <button data-bind="click: nextStep" class="button-big button-bold button-primary button-combo-end button-forward">Start the tour</button>
+      </div>
+      <div data-role="tour-start" data-bind="visible: !activeStep().isIntro">
+        <ul class="util-bar items-justified reset-list">
+          <li class="item">
+            <ul class="util-bar items-left items-extra-compact reset-list" data-bind="visible: nonIntroSteps().length > 1, foreach: { data: steps, as: 'step' }">
+              <!-- ko if: !step.isIntro -->
+              <li class="item">
+                <button class="button-plain icon-circle" data-bind="click: $parent.goToStep.bind($parent, $index()), css: { 'active': $index() == $parent.activeStepId() }"></button>
+              </li>
+              <!-- /ko -->
+            </ul>
+          </li>
+          <li class="item" data-bind="visible: !isLastStep()">
+            <button data-bind="click: nextStep" class="button-big button-bold button-primary button-combo-end button-forward">Next</button>
+          </li>
+          <li class="item" data-bind="visible: isLastStep()">
+            <button data-role="lightbox-close" class="button-big button-bold button-primary button-combo-end button-forward">Get started</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div data-bind="visible: activeStep().isIntro">
+      <button data-role="lightbox-close" class="lightbox-close button-icon button-close bg-accent-darkest">
+  Close
+</button>
+    </div>
+    <div data-role="tour-pointer" data-bind="style: {'top': activeStepOffset().top, 'right': activeStepOffset().pRight, 'left': activeStepOffset().pLeft}" class="pointer"></div>
+  </article>
+  <!-- /ko -->
+</div>
+    
+<script type="text/template" id="template-info-pages">
+  <ul class="box list-links bg-lighter">
+    <% _.each(pages, function(page) { %>
+      <li class="autosuggest-item">
+        <a data-role="autosuggest-link" class="link-block box-compact" href="<%= page.url %>">
+          <span class="link-title"><%= page.title %></span>
+        </a>
+      </li>
+    <% }); %>
+  </ul>
+</script>
+
+
+<script type="text/template" id="template-collections">
+  <% var renderItem = _.template($('#template-item').html()); %>
+  <div class="div-loop div-top-none div-bottom-none">
+    <nav class="box reset-padding-ends">
+      <h4>Sets</h4>
+      <ul class="reset-list">
+        <% _.each(items, function(item) { %>
+        <%= renderItem({item:item}) %>
+        <% }); %>
+      </ul>
+    </nav>
+  </div>
+</script>
+
+
+<script type="text/template" id="template-search-collection">
+  <div class="div-loop div-top-none div-bottom-none">
+    <nav class="box reset-padding-ends">
+      <h4>Search suggestions</h4>
+      <ul class="list-links">
+        <% _.each(searches, function(query) { %>
+          <li class="autosuggest-item">
+            <a data-role="autosuggest-link" class="link-block box-compact" href="<%= query.url %>">
+              <span class="link-title"><%= query.query %></span>
+              <span class="text-subtle">(<%= query.prettyName %>)</span>
+              <span class="text-subtle">(<%= query.hits %>)</span>
+            </a>
+          </li>
+        <% }); %>
+      </ul>
+    </nav>
+  </div>
+</script>
+
+
+
+<script type="text/template" id="template-item">
+  <li class="autosuggest-item">
+    <a data-role="autosuggest-link" href="<%= item.url %>" class="link-block box-compact thumb-before" style="background-image: url('<%= item.img %>');">
+      <span class="link-title"><%= item.title %></span>
+      <br />
+      <% if (item.user) { %>
+        <%= item.user %>
+      <% } else { %>
+        Rijksmuseum
+      <% } %>
+    </a>
+  </li>
+</script>
+
+<script type="text/template" id="template-crossref-rijksstudio">
+  <li data-role="autosuggest-crossref-rijksstudio" class="autosuggest-item">
+    <a data-role="autosuggest-link" class="link-block box-compact" href="/en/rijksstudio?q=<%= query %>">
+      <span class="link-title">More from Rijksstudio</span>
+    </a>
+  </li>
+</script>
+
+<script type="text/template" id="template-press-enter">
+  <div data-role="autosuggest-press-enter" class="div-loop div-top-none div-bottom-none padding-left-1x padding-right-1x">
+    Press Enter to search
+  </div>
+</script>
+
+    <script>
+  window.hasAllBrowserFeatures = false;
+
+  if (
+    'Promise' in window &&
+    'fetch' in window &&
+    'assign' in Object &&
+    'IntersectionObserver' in window &&
+    'from' in Array &&
+    'objectFit' in document.documentElement.style &&
+    !!window.HTMLPictureElement
+  ) {
+    window.hasAllBrowserFeatures = true;
+  }
+  else {
+    var firstScript = document.getElementsByTagName('script')[0];
+    var script = document.createElement('script');
+    // script.async = true;
+    script.src = 'https://rijks-web-2012.azureedge.net/v-6d0ec6724e2bfa391053a3192ac80ffd/WebStatic/rijksmuseum-polyfills.js';
+
+    firstScript.parentNode.insertBefore(script, firstScript);
+  }
+</script>
+
+
+<script src="https://rijks-web-2012.azureedge.net/v-28deaf47c54c1923f031aec022985565/WebStatic/rijksmuseum-lazy-image.js" async></script>
+
+
+<script src="https://rijks-web-2012.azureedge.net/v-bcbb1342e0a281c04e680e2f5d794d7f/WebStatic/rijksmuseum-web-lib.js"></script>
+<script src="https://rijks-web-2012.azureedge.net/v-ceb36488b4eb9b6d4de1d36277526816/WebStatic/rijksmuseum-web-app.js"></script>
+
+
+<!--[if !IE 8]><!--><script src="https://rijks-web-2012.azureedge.net/v-88805b927e54505ecc120a6360e0da4e/WebStatic/rijksmuseum-web-es6.js"></script><!--<![endif]-->
+
+<script>$(Ready.go);</script>
+
+    <script>
+  /* for mobile, check scrollposition. If it's zero, set it to zero. Else do nothing (to keep the scrollposition in page history) */
+  if (document.body.scrollTop == 0) {
+    document.body.scrollTop = 0;
+  }
+</script>
+    
+      <script>
+    $(document).ready(function () {
+      StreamResults.init();
+    });
+  </script>
+
+    
+<script>
+  (function () {
+    var flash = $.cookie("flash");
+
+    if (flash) {
+      //console.log("flash " + flash);
+      Feedback.show(flash);
+      $.removeCookie("flash", { path: "/" });
+    }
+
+  } ());
+</script>
+
+    
+    <script type="text/javascript">
+    var cookie = $.cookie("rmis_gdpr_accepted");
+    if (cookie !== null && cookie === '1') {
+      var appInsights = window.appInsights || function (config) {
+        function i(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, u = document, e = window, o = "script", s = "AuthenticatedUserContext", h = "start", c = "stop", l = "Track", a = l + "Event", v = l + "Page", y = u.createElement(o), r, f; y.src = config.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js"; u.getElementsByTagName(o)[0].parentNode.appendChild(y); try { t.cookie = u.cookie } catch (p) { } for (t.queue = [], t.version = "1.0", r = ["Event", "Exception", "Metric", "PageView", "Trace", "Dependency"]; r.length;)i("track" + r.pop()); return i("set" + s), i("clear" + s), i(h + a), i(c + a), i(h + v), i(c + v), i("flush"), config.disableExceptionTracking || (r = "onerror", i("_" + r), f = e[r], e[r] = function (config, i, u, e, o) { var s = f && f(config, i, u, e, o); return s !== !0 && t["_" + r](config, i, u, e, o), s }), t
+      }({
+        instrumentationKey: "31ae1c73-faa2-45db-a234-036b96f8cc8c",
+        disableAjaxTracking: true
+      });
+
+      window.appInsights = appInsights;
+      appInsights.trackPageView();
+    }
+    </script>
+
+
+    
+<div style="display: none;">
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDHW9DQ" height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+</div>
+
+
+    <script>
+      // if you opened the website this session from the app, change the ui with this body classname
+      var showAppViewCookie = $.cookie("rmshow-app-view");
+      if (showAppViewCookie !== null && showAppViewCookie === "true")
+        document.body.classList.add('show-app-view');
+    </script>
   </body>
-</html>
+
+  </html>
